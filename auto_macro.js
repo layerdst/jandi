@@ -4,7 +4,9 @@ const axios = require("axios");
 const currentTime = new Date();
 const parseCurrentTime = today();
 
+// url 은 추적하고자 하는 깃주소를 배열로 담는다.
 const url = ['http://github.com/layerdst'];
+
 let lists = [];
 let result = {};
 let count = 0;
